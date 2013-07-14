@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+    <TextView
+        android:id="@+id/preference1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pref1" />
+
+    <EditText
+        android:id="@+id/editTextPreference1"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preference1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+        
+    <TextView
+        android:id="@+id/invisibleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPreference1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ButtonNextV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/invisibleTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/invisibleTextView"
+        android:onClick="onClick"
+        android:text="@string/next" />
+
+</RelativeLayout>

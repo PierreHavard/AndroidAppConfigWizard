@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAppConfigWizard</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_ready_to_used">Your application is configured and ready to be used</string>
+    <string name="erasePrefs">Erase preferences and launch config wizard</string>
+    <string name="pref1">Preference 1</string>
+    <string name="pref2">Preference 2</string>
+    <string name="pref3">Preference 3</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="radioButton1">Radio Button 1</string>
+    <string name="radioButton2">Radio Button 2</string>
+    <string name="radioButton3">Radio Button 3</string>
+    <string name="spinner_prompt">Choose a item</string>
+
+    <string-array name="item_arrays">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
+</resources>
